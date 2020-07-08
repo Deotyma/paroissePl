@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Parafia Notre Dame!{% endblock %}
+
+{% block body %}
+    <section class="zoom">
+        <img src="{{ asset('images/chmurki3.jpg') }}" alt="nuage" id="layer0">
+        <img src="{{ asset('images/chmurka.png') }}" alt="nuage" id="layer1">
+        <img src="{{ asset('images/chmurka.png') }}" alt="nuage" id="layer2">
+        <img src="{{ asset('images/maryja1.png') }}" alt="Marie" id="marie">
+
+    </section>
+    <section class="content">
+        <h1>Parafia Notre Dame d'Alfortville</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur animi inventore dolorem nobis ipsum tempore quos. Debitis, ex harum. Tenetur, explicabo voluptas? Adipisci cupiditate unde nostrum fuga atque et odit.</p>
+    </section>
+{% endblock %}
+{% block javascripts %}
+    <script src="{{ asset('js/home.js') }}"></script>
+{% endblock %}

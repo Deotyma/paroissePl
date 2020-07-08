@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Strona polskojęzycznego duszpasterstwa przy francuskiej parafii Notre Dame d’Alfortville">
+        <meta name="author" content="Deotyma">
+        <title>{% block title %}Parafia Notre Dame d'Alfortville {% endblock %}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- FONT AWESOME   -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+        <!-- Custom styles for this template -->
+        <link href="{{ asset('css/normalize.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="{{ asset ('images/logo/NDAlinen.png') }}">
+                        </a>
+                    </div>
+                    <button class="navbar-nav-toggle">
+                        <span></span>
+                    </button>
+                    <div class="navbar-nav">
+                        <ul>
+                            <li><a href="#">Ogłoszenia</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="sub-menu-toggle">Liturgia <i class="fa fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Czytania dnia</a></li>
+                                    <li><a href="#">Eucharystia</a></li>
+                                    <li><a href="#">Adoracja</a></li>
+                                    <li><a href="#">Spowiedź </a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="sub-menu-toggle">Grupy <i class="fa fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Różaniec</a></li>
+                                    <li><a href="#">Ministranci</a></li>
+                                    <li><a href="#">Chór</a></li>
+                                    <li><a href="#">Grupa biblijna</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="sub-menu-toggle">Wolontariat <i class="fa fa-angle-down"></i> </a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Rada parafialna</a></li>
+                                    <li><a href="#">Diakonia porządkowa </a></li>
+                                    <li><a href="#">Diakonia informacji</a></li>
+                                    <li><a href="#">Diakonia kwiatowa</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Kalendarz</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        {% block body %}{% endblock %}
+        {% block javascripts %}
+            <script src="{{ asset('js/menu.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>
