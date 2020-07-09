@@ -7,6 +7,13 @@
      font-family: 'Lato', sans-serif;
      color: #005b9e;
  }
+ h1{
+     font-family: 'Fondamento', cursive;
+ }
+
+ .pt{
+     padding-top: 10vh;
+ }
 
  /*css navigation bar*/
 .container {
@@ -24,7 +31,7 @@
     padding: 0 15px;
     position: fixed;
     width: 100%;
-    z-index: 100;
+    z-index: 999;
 
 }
 
@@ -194,6 +201,7 @@
 /*home css*/
 
 .zoom {
+    padding-top: 5vh;
     display: flex;
     width: 100%;
     height: 100%;
@@ -208,7 +216,7 @@
     bottom: 0;
     width: 100%;
     height: 20%;
-    z-index: 1000;
+    z-index: 990;
     background: linear-gradient(transparent, #EEE4DA);
 }
 .zoom #layer0{
@@ -298,5 +306,14 @@
     .navbar .navbar-nav ul>li>.sub-menu>li>a {
         color: #eee4da;
         padding: 14px 20px 12px 40px;
+    }
+
+    /*css home*/
+    .zoom{
+        padding-top: 10vh;
+    }
+    .zoom #layer0{
+        width: 120%;
+        overflow: hidden;
     }
 }

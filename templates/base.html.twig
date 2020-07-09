@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="logo">
-                        <a href="#">
+                        <a href="{{ path('home') }}">
                             <img src="{{ asset ('images/logo/NDAlinen.png') }}">
                         </a>
                     </div>
@@ -35,7 +35,7 @@
                             <li class="dropdown">
                                 <a href="#" class="sub-menu-toggle">Liturgia <i class="fa fa-angle-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li><a href="#">Czytania dnia</a></li>
+                                    <li><a href="{{ path('readings') }}">Czytania dnia</a></li>
                                     <li><a href="#">Eucharystia</a></li>
                                     <li><a href="#">Adoracja</a></li>
                                     <li><a href="#">Spowiedź </a></li>
@@ -69,9 +69,11 @@
             </div>
         </nav>
     </header>
-        {% block body %}{% endblock %}
+        {% block body %}
+        {% endblock %}
+        <script src="{{ asset('js/menu.js') }}"></script>
         {% block javascripts %}
-            <script src="{{ asset('js/menu.js') }}"></script>
+
         {% endblock %}
     </body>
 </html>

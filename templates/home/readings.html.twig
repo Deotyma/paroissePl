@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Czytania dnia{% endblock %}
+{% block stylesheets %}
+    <link href="{{ asset('css/readings.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+    <div class="container pt">
+        <script type="text/javascript" src="https://widget.niedziela.pl/liturgia_out.js.php?data=DATA&kodowanie=KODOWANIE"></script>
+    </div>
+
+{% endblock %}

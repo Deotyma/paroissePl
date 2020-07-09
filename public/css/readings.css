@@ -1,0 +1,154 @@
+div#nd_liturgia {
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+div#nd_liturgia_naglowek {
+    margin:0;
+    padding:0 0 5px 0;
+    font-size:2rem;
+    color: #eee4da;
+
+}
+div#nd_liturgia_czytania {
+    margin:0;
+    padding:0;
+}
+div#nd_liturgia_dodatki {
+    margin:0;
+    padding:5px;
+    background-color:#2a7db1;
+}
+
+p.nd_dzien {
+    margin:0px;
+    padding:3px;
+    font-weight:bold;
+    font-size:1.5rem;
+    background-color:#2a7db1;
+}
+p.nd_msza {
+    margin:5px 0 0 0;
+    padding:0;
+    font-weight:bold;
+    font-size:1rem;
+}
+p.nd_msza_tyt {
+    margin:0px;
+    margin-top:15px;
+    padding:2px;
+    font-weight:bold;
+    font-size:1.2rem;
+    background-color:green;}
+span.nd_swieto {
+    color:#fff;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+span.nd_sigla {
+    font-weight:bold;
+}
+p.nd_wstep {
+    margin:0;
+    padding:0 3px;
+    color:#005b9e;
+    font-size:1rem;
+}
+p.nd_czytanie_nazwa {
+    margin:10px 0 0 0;
+    padding:2px;
+    background-color:#2a7db1;
+    font-weight:bold;
+    font-size:1rem;
+    color: #eee4da;
+}
+p.nd_czytanie_sigla {
+    margin:0 0 0 5px;
+    padding:0;
+    margin-bottom:5px;
+    font-weight:bold;
+    font-size:12px;
+}
+p.nd_czytanie2 {
+    margin:0px;
+    padding:0;
+    font-weight:bold;
+    font-size:1rem;
+}
+p.nd_czytanie_tyt {
+    margin:0px;
+    padding:0;
+    margin-top:0px;
+    font-weight:bold;
+    margin-left:5px;
+}
+p.nd_czytanie_tresc {
+    margin:0px;
+    padding:0;
+    margin-top:0px;
+    font-size:1rem;
+    margin-left:5px;
+}
+p.nd_czytanie_albo {
+    margin:0;
+    padding:0;
+    margin-top:0;
+    font-size:1rem;
+    margin-left:5px;
+    font-weight:bold;
+    color:red
+}
+p.nd_czytanie_odp {
+    margin:0;
+    padding:0;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-weight:bold;
+    font-size:1rem;
+}
+p.nd_psalm {
+    margin:0;
+    padding:0;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:10px;
+    font-size:1rem;
+}
+p.nd_psalm_refren {
+    margin:0;
+    padding:0;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-weight:bold;
+    margin-left:5px;
+    font-size:1rem;
+}
+p.nd_czytanie_perykopa {
+    margin:0;
+    padding:0;
+    margin-top:5px;
+    font-weight:bold;
+    margin-left: 5px;
+    font-size:1rem;
+    color:red;
+}
+p.nd_dodatki_tyt {
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    font-weight:bold;
+}
+p.nd_dodatki_styt {
+    margin:0;
+    padding:0;
+    font-size:1rem;
+    font-weight:bold;
+    margin-left:5px;
+}
+p.nd_dodatki_tresc {
+    margin:0;
+    padding:0;
+    font-size:1rem;
+    margin-left:5px;
+}
